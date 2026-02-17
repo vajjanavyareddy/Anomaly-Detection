@@ -15,7 +15,7 @@ st.markdown("---")
 st.markdown("This application uses **Isolation Forest** to detect anomalies in air quality data.")
  
 # Load the trained model
-model_path = "D:\\5U8\\17-02-26\\isolation_forest_air_quality.pkl"
+model_path = "isolation_forest_air_quality.pkl"
  
 try:
     model = joblib.load(model_path)
@@ -177,4 +177,5 @@ with tab3:
     - **Prediction = -1**: Data point is an ANOMALY
     - **Anomaly Score**: Lower scores indicate more anomalous behavior
     """)
+
  
